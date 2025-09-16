@@ -7,6 +7,13 @@ To develop a Python program to create our own policy, evaluate and compare it wi
 To find best policy from two policies which are defined by user using policy evaluation function. Where the mdp includes 16 states from 0-15, 0 is the starting state, assigning some 4 random state as holes and 15 is the goal state and then we need to calculate optimal state value function for each state such that we can reach goal using optimal policy using policy evaluation.
 
 ## POLICY EVALUATION FUNCTION
+
+
+```
+Reg no: 212222240075
+Developed By: Prasannalakshmi G
+
+```
 ```
 def policy_evaluation(pi, P, gamma=1.0, theta=1e-10):
     prev_V = np.zeros(len(P), dtype=np.float64)
